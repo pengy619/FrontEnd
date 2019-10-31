@@ -1,0 +1,13 @@
+$theme-blue1:#489bf7;
+$theme-blue2:#48baf7;
+$theme-orange1:#f80;
+$theme-orange2:#ff9e2f;
+$theme-red1:#ff5840;
+$normal-text:#666;
+$gray-text:#999;
+$theme-green:#4db321;
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

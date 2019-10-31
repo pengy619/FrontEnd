@@ -1,0 +1,197 @@
+$blue-theme:#409EFF;
+.pagination{
+    margin: 10px 0;
+    text-align: right;
+}
+.view{
+    padding: 15px;
+    height: 100%;
+    h4{
+        color: $blue-theme;
+        border-bottom: 1px solid $blue-theme;
+        font-size: 14px;
+        padding-left: 8px ;
+    }
+    .el-date-editor--date,
+    .el-select{
+        width: 200px;
+    }
+    .demo-form-inline .el-date-editor--daterange input{
+        width: 130px;
+    }
+    .el-date-editor .el-range-separator{
+        min-width: 20px;
+    }
+    .footer-control-wrap{
+        margin: 20px 0;
+    }
+    .date_width  input,
+    .el-pagination__sizes input{
+        width: 100%;
+    }
+    .select_width .el-input input {
+        width: 100%;
+    }
+    .full-width{
+        input,.el-select,.el-cascader,.el-input{
+            width: 100%;
+        }
+    }
+    .inner-full {
+        input, .el-select, .el-cascader, .el-input, .el-input-number {
+          width: 100%!important;
+          text-align: left;
+        }
+      }
+    .left-input input{
+        text-align: left;
+    }
+    .input_comm{
+         width:200px!important;
+    }
+    .input_comm input{
+        text-align: left;
+    }
+    .input_100{
+        width:100px!important;
+     }
+    .demo-form-inline input{
+        width: 200px;
+    }
+    .cursor{
+        cursor: pointer;
+        color: #66b1ff;
+    }
+
+}
+.inline-block{
+    display: inline-block!important;
+}
+.width_input{
+  width: 45%;
+}
+.text-center{
+    text-align: center;
+}
+.input_width{
+  width: 15%;
+}
+.margin_bottom{
+  margin-bottom: 15px;
+}
+.margin_left{
+    margin-left: 20px;
+}
+.margin_right{
+    margin-right: 20px;
+}
+.margin_top{
+  margin-top: 20px;
+}
+.margin_bottom_0{
+    margin-bottom: 0!important;
+}
+.success{
+    color:#67C23A;
+}
+.danger{
+    color:#F56C6C;
+}
+.price{
+    color:#F56C6C;
+}
+#box{
+    background: white;
+    padding: 20px;
+    height: 100%;
+  }
+.vercitals{
+    font-weight: bold;
+    font-size: 20px;
+}
+.formgauge{
+    margin-left: -13px;
+}
+.out-window{
+    position: fixed;
+    left:-99999px;
+}
+.line_height{
+    line-height: 48px;
+       .el-badge__content{
+       top: 10px;
+   }
+   }
+.ylt-left-bar .el-menu-item-group__title{
+	padding:0px!important;
+}
+.ylt-left-bar .el-submenu__title:hover,.ylt-left-bar .el-menu-item:hover{
+    background: #fff!important;
+    color:#48c8f7!important;
+}
+.ylt-left-bar .el-menu-item{
+    height: 40px;
+    line-height: 40px;
+}
+.el-table th{
+    background-color: #f3f4f6!important;
+    padding: 8px 0 7px !important;
+}
+.el-table td{
+  padding: 5px 0 4px !important;
+}
+
+.btnmargintop{
+    margin-top: 18px;
+}
+.thumb-img{
+    width: 148px;
+    margin:0 10px 0px 0;
+    .img{
+      width: 148px;
+      height: 150px;
+      overflow: hidden;
+      border: 1px solid #c0ccda;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .input{
+        text-align: center;
+        div{
+          margin: 5px 0
+        }
+        .el-input{
+          width: 150px;
+        }
+    }
+}
+
+.price-table .el-table td .cell,
+.price-table .el-table td{
+    padding: 0!important;
+}
+//新增全局样式
+.el-table__body-wrapper{
+    overflow-y: auto;
+    max-height: 650px!important;
+  }
+.el-table__fixed-body-wrapper{
+    overflow-y: auto;
+    max-height: 632px!important;
+}
+
+
+.ui-dialog{
+    .el-dialog__body{
+      padding-top: 0px;
+        .price-table .el-table td .td{
+            min-height: 70px;
+        }
+    }
+  }
+
