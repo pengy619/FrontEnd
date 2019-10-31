@@ -19,7 +19,7 @@
     }
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "better-scroll": "^1.12.1",
     "cube-ui": "^1.9.7",
     "promise.prototype.finally": "^3.1.0",
